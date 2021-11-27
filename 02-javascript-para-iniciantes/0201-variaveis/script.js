@@ -21,7 +21,7 @@ var varSemValor
 console.log(varSemValor) //Resultado vai ser 'undefined'
 console.log(varDefinicao) //Resultado vai ser um erro 'varDefinicao is not defined' 
 
-/* EXERÍCIO: */
+/* EXERCÍCIO: */
 
 // Declarar uma variável com o seu nome
 const name = 'Matheus'

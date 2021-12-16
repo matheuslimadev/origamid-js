@@ -38,3 +38,12 @@ if(('Gato' === 'gato') || (5 > 2)) {
 } else {
   console.log('Falso');
 }
+
+// If Abreviado:
+// Não é necessário abrir e fechar as chaves {} quando retornamos apenas uma linha de código:
+var possuiFaculdade = true
+if(possuiFaculdade) 
+  console.log('Possui faculdade')
+  // console.log('Possui 2') // <- Se descomentado gera um erro, porque é esperado um else ao invés de outra linha de código
+else
+  console.log('Não possui faculdade')
